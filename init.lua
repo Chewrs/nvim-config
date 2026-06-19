@@ -73,24 +73,6 @@ require("lazy").setup({
 			vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename)
 		end,
 	},
-	{
-		"nvim-treesitter/nvim-treesitter",
-		build = ":TSUpdate",
-		config = function()
-			require("nvim-treesitter.configs").setup({
-				ensure_installed = {
-					"python",
-					"c",
-					"lua",
-					"vim",
-					"markdown",
-				},
-				highlight = {
-					enable = true,
-				},
-			})
-		end,
-	},
 })
 -- Syntax 
 vim.cmd("syntax on")
