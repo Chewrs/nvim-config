@@ -1,4 +1,4 @@
-# ⚡ Neovim Dotfiles
+# ⚡ Neovim Config
 
 A lightweight, keyboard-driven Neovim setup built for daily programming.
 
