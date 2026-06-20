@@ -131,3 +131,4 @@ vim.keymap.set("n", "<leader>`", function()
 	vim.cmd("tabprevious")
 	vim.cmd("wincmd w")
 end)
+
