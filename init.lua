@@ -73,6 +73,10 @@ require("lazy").setup({
 			vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename)
 		end,
 	},
+	{
+  		"Exafunction/windsurf.vim",
+  		event = "BufEnter",
+	},
 })
 -- Syntax 
 vim.cmd("syntax on")

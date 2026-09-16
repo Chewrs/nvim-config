@@ -43,7 +43,7 @@ nvim
 | fzf.vim | File and text search commands |
 | mason.nvim | LSP installer and manager |
 | nvim-lspconfig | Language Server Protocol support |
-
+| codeium | Code completion | 
 
 ## ⌨️ Keybindings
 
